@@ -1,0 +1,17 @@
+.praxis-docs-search {
+  input {
+    width: 280px;
+  }
+  .popover-content {
+    padding: 0;
+    .list-group-item {
+      width: 270px;
+      margin-right: 20px;
+      border-left: none;
+      border-right: none;
+      &:first-child {
+        border-top: none;
+      }
+    }
+  }
+}

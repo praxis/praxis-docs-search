@@ -1,0 +1,8 @@
+<form ng-controller="DocsSearchCtrl" class="praxis-docs-search" role="search" ng-class="{focus:focus}" ng-submit="submit()">
+  <div class="form-group">
+    <input type="search" class="form-control" placeholder="Search" ng-focus="focus=true"
+           ng-blur="focus=false"
+           ng-change="search(q)"
+           ng-model="q" autocomplete="off" popover-template="'views/search_results.html'" popover-is-open="showResults" popover-placement="bottom" popover-trigger="none" />
+  </div>
+</form>
