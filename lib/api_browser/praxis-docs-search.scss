@@ -12,6 +12,12 @@
       &:first-child {
         border-top: none;
       }
+      .result-type {
+        color: $text-muted;
+        position: absolute;
+        right: 12px;
+        bottom: 11px;
+      }
     }
   }
 }

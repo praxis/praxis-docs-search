@@ -1,5 +1,5 @@
 <div class="list-group">
-  <a ng-repeat="result in results" href="{{result.path}}" class="list-group-item">
-    {{result.name}}
+  <a ng-repeat="result in results" href="{{result.path}}" class="list-group-item" ng-click="goToResult(result)">
+    {{result.name}} <small class="result-type">{{result.type}}</small>
   </a>
 </div>
